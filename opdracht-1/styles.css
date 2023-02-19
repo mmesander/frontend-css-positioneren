@@ -22,3 +22,9 @@ Donkergrijs #D3D3D3
 .recipe-photo {
     width: 100%;
 }
+
+.recipe-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+}

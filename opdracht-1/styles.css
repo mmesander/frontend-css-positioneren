@@ -19,6 +19,7 @@ Donkergrijs #D3D3D3
     border: 1px solid #D3D3D3;
     box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.10);
     overflow: hidden;
+    position: relative;
 }
 
 .recipe-photo {
@@ -29,10 +30,11 @@ Donkergrijs #D3D3D3
     font-size: 14px;
     padding-left: 20px;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .recipe-headlines {
-    height: 25px;
+    height: 27px;
     width: 100%;
     background-color: #F7F7F7;
     margin-top: -8px;
@@ -47,4 +49,10 @@ Donkergrijs #D3D3D3
     font-size: 12px;
     font-weight: bold;
     padding-left: 5px;
+}
+
+.favorite {
+    position: absolute;
+    top: 15px;
+    left: 300px;
 }

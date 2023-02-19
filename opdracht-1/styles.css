@@ -33,25 +33,31 @@ Donkergrijs #D3D3D3
     padding-bottom: 5px;
 }
 
-.recipe-headlines {
-    height: 27px;
-    width: 100%;
+.recipe-details {
+    width: 350px;
+    height: 40px;
+    background-color: #F7F7F7;
+    margin-top: 20px;
+}
+
+.recipe-details {
+    height: 30px;
     background-color: #F7F7F7;
     margin-top: -8px;
 }
 
-.headlines-icons {
-    width: 25px;
+.recipe-details-icon {
+    height: 12px;
+    padding-right: 5px;
+}
+
+.recipe-details-item {
+    font-size: 12px;
+    font-weight: bold;
     padding-left: 15px;
 }
 
-.headlines-text {
-    font-size: 12px;
-    font-weight: bold;
-    padding-left: 5px;
-}
-
-.favorite {
+.favorite-icon {
     position: absolute;
     top: 15px;
     left: 300px;

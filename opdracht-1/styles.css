@@ -7,6 +7,9 @@ Donkergrijs #D3D3D3
 
 * {
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -27,38 +30,31 @@ Donkergrijs #D3D3D3
 }
 
 .recipe-title {
-    font-size: 14px;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    font-size: 16px;
+    margin: 20px;
 }
+/*Ik had ook padding-block 5px kunnen gebruiken ipv 5 top en 5 bottom
+ */
 
 .recipe-details {
-    width: 350px;
-    height: 40px;
     background-color: #F7F7F7;
-    margin-top: 20px;
-}
-
-.recipe-details {
-    height: 30px;
-    background-color: #F7F7F7;
-    margin-top: -8px;
+    padding-block: 5px;
+    margin-top: -7px;
 }
 
 .recipe-details-icon {
     height: 12px;
-    padding-right: 5px;
+    margin-inline: 5px;
 }
 
 .recipe-details-item {
-    font-size: 12px;
-    font-weight: bold;
-    padding-left: 15px;
+    font-size: 14px;
+    margin-inline: 8px;
 }
 
 .favorite-icon {
     position: absolute;
     top: 15px;
-    left: 300px;
+    right: 15px;
+    width: 20px;
 }
